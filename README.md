@@ -1,5 +1,5 @@
 # UnversityEducation_MPSIS
-Designing a microprocessor based on RISC-V architecture
+Designing a microprocessor based on RISC-V architecture (SystemVerilog / ASM / Vivado 2019.2)
 
 Laboratory work 1. "Adder"
 
