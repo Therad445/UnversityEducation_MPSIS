@@ -1,0 +1,12 @@
+0.6
+2019.2
+Nov  6 2019
+21:42:20
+/home/pin_33_6/Desktop/Lab3/Lab3.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+/home/pin_33_6/Desktop/Lab3/Lab3.srcs/sources_1/new/data_mem.sv,1710228954,systemVerilog,,/home/pin_33_6/Desktop/tb_data_mem.sv,,data_mem,,,,,,,,
+/home/pin_33_6/Desktop/Lab3/Lab3.srcs/sources_1/new/instr_mem.sv,1710228503,systemVerilog,,/home/pin_33_6/Desktop/tb_instr_mem.sv,,instr_mem,,,,,,,,
+/home/pin_33_6/Desktop/Lab3/Lab3.srcs/sources_1/new/rf_riscv.sv,1710229136,systemVerilog,,/home/pin_33_6/Desktop/nexys_rf_riscv.sv,,rf_riscv,,,,,,,,
+/home/pin_33_6/Desktop/nexys_rf_riscv.sv,1710229221,systemVerilog,,,,nexys_rf_riscv,,,,,,,,
+/home/pin_33_6/Desktop/tb_data_mem.sv,1710228992,systemVerilog,,,,tb_data_mem,,,,,,,,
+/home/pin_33_6/Desktop/tb_instr_mem.sv,1710228768,systemVerilog,,,,instr_mem_ref;tb_instr_mem,,,,,,,,
+/home/pin_33_6/Desktop/tb_rf_riscv.sv,1710229150,systemVerilog,,,,rf_riscv_ref;tb_rf_riscv,,,,,,,,

@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"tb_CYBERcobra_time_impl.v" \
+
+sv xil_defaultlib  \
+"../../../../../../../Lab3_MPSIS/Lab3_board_files/alu_opcodes_pkg.sv" \
+"../../../../../Lab_1.srcs/sources_1/new/alu_riscv.sv" \
+"../../../../../Lab_1.srcs/sources_1/new/cybercobra.sv" \
+"../../../../../Lab_1.srcs/sources_1/new/fulladder.sv" \
+"../../../../../Lab_1.srcs/sources_1/new/fulladder32.sv" \
+"../../../../../Lab_1.srcs/sources_1/new/instr_mem.sv" \
+"../../../../../Lab_1.srcs/sources_1/new/rf_riscv.sv" \
+"../../../../../../tb_cybercobra.sv" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,76 @@
+module CYBERcobra(
+    input  logic        clk_i,
+    input  logic        rst_i,
+    input  logic [15:0] sw_i,
+    output logic [31:0] out_o
+);
+
+
+logic [31:0] pc;
+logic [31:0] instructions = 0;
+logic [31:0] sum = 0;
+logic [31:0] write_data;
+logic [31:0] alu_result;
+logic [31:0] read_res1;
+logic [31:0] read_res2;
+logic jump;
+logic flag;
+logic carry_cobra;
+assign jump = instructions[31] || (instructions[30] && flag);
+
+
+instr_mem instr_mem1(
+    .addr_i(pc),
+    .read_data_o(instructions)
+);
+
+
+fulladder32 fulladder32_1(
+    .a_i(pc),
+    .b_i(jump ? { {22{instructions[12]}}, (instructions[12:5]), {2{1'b0}}} : 4),
+    .carry_i(0),
+    .sum_o(sum),
+    .carry_o(carry_cobra)
+);
+
+
+always_ff @(posedge clk_i) begin
+    pc <= rst_i ? 0 : sum;
+end
+
+
+rf_riscv rf_riscv1(
+    .clk_i(clk_i),
+    .write_enable_i(instructions[29:28] != 2'b11),
+    .write_addr_i(instructions[4:0]),
+    .read_addr1_i(instructions[22:18]),
+    .read_addr2_i(instructions[17:13]),
+    .write_data_i(write_data),
+    .read_data1_o(read_res1),
+    .read_data2_o(read_res2)
+);
+
+
+alu_riscv alu_riscv1(
+    .a_i(read_res1),
+    .b_i(read_res2),
+    .alu_op_i(instructions[27:23]),
+    .flag_o(flag),
+    .result_o(alu_result)
+);
+
+
+    
+    
+always_comb begin
+    case (instructions[29:28])
+        2'b00 : write_data <= {{9{instructions[27]}}, instructions[27:5]};
+        2'b01 : write_data <= alu_result;
+        2'b10 : write_data <= {{16{sw_i[15]}}, {sw_i}};
+        2'b11 : write_data <= 32'b0;
+    endcase
+    out_o <= instructions[31] || instructions[30] ? out_o : write_data;
+end
+
+
+endmodule

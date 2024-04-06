@@ -1,0 +1,7 @@
+Running: xsim.dir/nexys_rf_riscv_behav/xsimk -simmode gui -wdb nexys_rf_riscv_behav.wdb -simrunnum 0 -socket 45159
+Design successfully loaded
+Design Loading Memory Usage: 33320 KB (Peak: 33852 KB)
+Design Loading CPU Usage: 20 ms
+Simulation completed
+Simulation Memory Usage: 115056 KB (Peak: 172588 KB)
+Simulation CPU Usage: 30 ms

@@ -1,0 +1,8 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/8224201/Desktop/Lab1/Lab_1/Lab_1.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+C:/Users/8224201/Desktop/Lab1/Lab_1/Lab_1.srcs/sim_1/new/tb_fulladder32.sv,1707903687,systemVerilog,,,,tb_fulladder32,,,,,,,,
+C:/Users/8224201/Desktop/Lab1/Lab_1/Lab_1.srcs/sources_1/new/fulladder.sv,1707925142,systemVerilog,,C:/Users/8224201/Desktop/Lab1/Lab_1/Lab_1.srcs/sources_1/new/tb_fulladder32.sv,,fulladder,,,,,,,,
+C:/Users/8224201/Desktop/Lab1/Lab_1/Lab_1.srcs/sources_1/new/tb_fulladder32.sv,1707922002,systemVerilog,,C:/Users/8224201/Desktop/Lab1/Lab_1/Lab_1.srcs/sim_1/new/tb_fulladder32.sv,,fulladder32,,,,,,,,

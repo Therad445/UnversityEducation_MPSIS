@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../Lab_1.srcs/sources_1/new/rf_riscv.sv" \
+"../../../../../../Lab3_MPSIS/Lab3_board_files/nexys_rf_riscv.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

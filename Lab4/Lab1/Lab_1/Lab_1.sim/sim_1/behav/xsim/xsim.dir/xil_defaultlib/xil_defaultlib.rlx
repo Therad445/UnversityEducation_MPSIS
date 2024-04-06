@@ -1,0 +1,13 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+C:/Users/8224201/Desktop/Lab1/Lab_1/Lab_1.sim/sim_1/behav/xsim/glbl.v,1711446458,verilog,,,,glbl,,,,,,,,
+C:/Users/8224201/Desktop/Lab1/Lab_1/Lab_1.srcs/sources_1/new/alu_riscv.sv,1711446468,systemVerilog,,C:/Users/8224201/Desktop/Lab1/Lab_1/Lab_1.srcs/sources_1/new/cybercobra.sv,,alu_riscv,,,,,,,,
+C:/Users/8224201/Desktop/Lab1/Lab_1/Lab_1.srcs/sources_1/new/cybercobra.sv,1711450235,systemVerilog,,C:/Users/8224201/Desktop/Lab1/Lab_1/Lab_1.srcs/sources_1/new/fulladder.sv,,CYBERcobra,,,,,,,,
+C:/Users/8224201/Desktop/Lab1/Lab_1/Lab_1.srcs/sources_1/new/fulladder.sv,1711446468,systemVerilog,,C:/Users/8224201/Desktop/Lab1/Lab_1/Lab_1.srcs/sources_1/new/fulladder32.sv,,fulladder,,,,,,,,
+C:/Users/8224201/Desktop/Lab1/Lab_1/Lab_1.srcs/sources_1/new/fulladder32.sv,1711446468,systemVerilog,,C:/Users/8224201/Desktop/Lab1/Lab_1/Lab_1.srcs/sources_1/new/instr_mem.sv,,fulladder32,,,,,,,,
+C:/Users/8224201/Desktop/Lab1/Lab_1/Lab_1.srcs/sources_1/new/instr_mem.sv,1711446816,systemVerilog,,C:/Users/8224201/Desktop/Lab1/Lab_1/Lab_1.srcs/sources_1/new/rf_riscv.sv,,instr_mem,,,,,,,,
+C:/Users/8224201/Desktop/Lab1/Lab_1/Lab_1.srcs/sources_1/new/rf_riscv.sv,1711446468,systemVerilog,,C:/Users/8224201/Desktop/Lab1/tb_cybercobra.sv,,rf_riscv,,,,,,,,
+C:/Users/8224201/Desktop/Lab1/tb_cybercobra.sv,1711446455,systemVerilog,,,,tb_CYBERcobra,,,,,,,,
+C:/Users/8224201/Desktop/Lab3_MPSIS/Lab3_board_files/alu_opcodes_pkg.sv,1711446471,systemVerilog,C:/Users/8224201/Desktop/Lab1/Lab_1/Lab_1.srcs/sources_1/new/alu_riscv.sv,C:/Users/8224201/Desktop/Lab1/Lab_1/Lab_1.srcs/sources_1/new/alu_riscv.sv,,alu_opcodes_pkg,,,,,,,,
